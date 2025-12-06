@@ -1,0 +1,36 @@
+<!--
+    EN - Updating UI with Javascript
+    PT_BR - Atualizando a UI com Javascript
+-->
+
+<html>
+    <body>
+        <!-- THE div -->
+        <div id="app">
+
+        </div>
+        
+        <script type="text/javascript">
+            // EN - Select the div element with 'app' id
+            // PT_BR - Selecione o elemento da div cujo id seja 'app'
+            const app = document.getElementById('app');
+
+            // EN - Create a new H1 element
+            // PT_BR - Criar um novo elemento H1
+            const header = document.createElement('h1');
+
+            // EN - Create a new text node for the H1 element
+            // PT_BR - Criar um novo ponto de texto para o elemento H1
+            const text = 'Develop. Preview. Ship.';
+            const headerContent = document.createTextNode(text);
+
+            // EN - Append the text to the H1 element
+            // PT_BR - Adicionar o texto ao elemento H1
+            header.appendChild(headerContent);
+
+            // EN - Place the H1 element inside the div
+            // PT_BR - Colocar o elemento H1 dentro da div
+            app.appendChild(header);
+        </script>
+    </body>
+</html>
