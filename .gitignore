@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/foundations/node_modules
 /.pnp
 .pnp.js
 
@@ -10,6 +11,7 @@
 
 # next.js
 /.next/
+/foundations/.next/
 /out/
 
 # production
