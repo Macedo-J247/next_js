@@ -12,7 +12,6 @@ import { createInvoice } from '@/app/lib/actions';
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   const create = async (formData: FormData) => {
-    'use server';
     await createInvoice(formData);
   };
   
