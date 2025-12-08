@@ -16,7 +16,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
   };
   
   return (
-    <form action={create}>
+    <form>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
         {/* Customer Name */}
         <div className="mb-4">
